@@ -1,5 +1,5 @@
-# Daraz-logout-CSRF
-If a user makes a request to "https://member.daraz.lk/user/logout" the user is logged out. This action can be forced by another website by loading the URL in an image tag etc... or if the user is tricked into clicking opening the URL.
+# logout-CSRF
+If a user makes a request to "https://example.com/user/logout" the user is logged out. This action can be forced by another website by loading the URL in an image tag etc... or if the user is tricked into clicking opening the URL.
 <br>
 This when chained with other vulnerabilities could be serious issue and stop users from being able to use the politeia system.
 <br><br>
